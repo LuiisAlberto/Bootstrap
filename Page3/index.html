@@ -13,85 +13,122 @@
 <body>
 
     <div class="container px-0 py-4">
-        <h2>Editar Usuario</h2>
+        <h2 class="col-md-12">Editar Usuario</h2>
         <br>
-        <div class="alert alert-secondary">
-            <form class="mb-3">
-                <h3>Datos Personales</h3>
+        <div class="alert alert-secondary col-md-12 col-sm-12 col-xs-12 col-auto">
+            <form class="mb-3 col-md-12 col-sm-12 col-xs-12 col-auto">
+                <h3 class="col-auto">Datos Personales</h3>
                 <div class="w-100"></div>
                 <br>
                 <div class="row">
-                    <div class="col-2">
+                    <div class="col-2 col-md-2 col-xs-6 col-sm-4 col-auto">
                         <label for="nombres" class="form-label">Nombre(s)<span class="naranja">*</span></label>
                         <input type="text" class="form-control" placeholder="Cesar Manuel">
                     </div>
-                    <div class="col-2">
+                    <div class="col-2 col-md-2 col-xs-6 col-sm-4 col-auto">
                         <label for="apellidoPaterno" class="form-label">Apellido Paterno<span
                                 class="naranja">*</span></label>
                         <input type="text" class="form-control" placeholder="Gonzáles">
                     </div>
-                    <div class="col-2">
+                    <div class="col-2 col-md-2 col-xs-6 col-sm-4 col-auto">
                         <label for="apellidoMaterno" class="form-label">Apellido Materno<span
                                 class="naranja">*</span></label>
                         <input type="text" class="form-control" placeholder="Hernández">
                     </div>
-                    <div class="col-4">
+                    <div class="col-4 col-md-4 col-xs-6 col-sm-4 col-auto">
                         <label for="email" class="form-label">Correo eléctronico<span class="naranja">*</span></label>
                         <input type="email" class="form-control" placeholder="cesarmanuelgonzales@gmail.com">
                     </div>
                     <div class="w-100"></div>
                     <br>
-                    <div class="col-2">
+                    <div class="col-2 col-md-2 col-xs-6 col-sm-4 col-auto">
                         <label for="password" class="form-label">Contraseña<span class="naranja">*</span></label>
                         <input type="password" class="form-control" placeholder="**********">
                     </div>
-                    <div class="col-2">
-                        <label for="password" class="form-label">Confirmar Contraseña<span
-                                class="naranja">*</span></label>
+                    <div class="col-2 col-md-2 col-xs-6 col-sm-4 col-auto">
+                        <label for="password" class="form-label">Confirmar Contraseña<span class="naranja">*</span></label>
                         <input type="password" class="form-control" placeholder="**********">
                     </div>
                     <br>
-                    <div id="textoconstraseña" class="form-text col-md-12 text-wrap azul">
-                        La constraseña debe de ser de al menos 8 posiciones. Debe contontener una letra mayúscula, una
-                        minúscula, un número y un caracter especial como %&$!.
+                    <div id="textoconstraseña" class="form-text col-md-12 text-wrap azul col-md-2 col-xs-6 col-sm-4 col-auto">
+                        La constraseña debe de ser de al menos 8 posiciones. Debe contontener una letra mayúscula, una minúscula, un número y un caracter especial como %&$!.
                     </div>
                 </div>
                 <hr>
                 <div class="w-100"></div>
-                <h3>Roles de Usuario</h3>
+                <h3 class="col-md-12">Roles de Usuario</h3>
                 <div class="w-100"></div>
                 <br>
                 <div class="row">
-                    <div class="mb-3 col-2">
+                    <div class="mb-3 col-2 col-md-2">
                         <div class="form-check">
                             <label for="nuevoCliente" class="form-check-label negro">Nuevo Cliente</label>
                             <input type="checkbox" class="form-check-input check" name="nuevoCliente" checked>
                         </div>
                     </div>
-                    <div class="mb-3 col-2">
+                    <div class="mb-3 col-2 col-md-2">
                         <div class="form-check">
                             <label for="mostrarClientes" class="form-check-label negro">Mostrar clientes</label>
                             <input type="checkbox" class="form-check-input check" name="mostrarClientes">
                         </div>
                     </div>
-                    <div class="mb-3 col-2">
+                    <div class="mb-3 col-2 col-md-2">
                         <div class="form-check">
                             <label for="registrarUsuario" class="form-check-label negro">Registrar usuario</label>
                             <input type="checkbox" class="form-check-input check" name="registrarUsuario" checked>
                         </div>
                     </div>
-                    <div class="mb-3 col-2">
+                    <div class="mb-3 col-2 col-md-2">
                         <div class="form-check">
                             <label for="mostrarUsuarios" class="form-check-label negro">Mostrar usuarios</label>
                             <input type="checkbox" class="form-check-input check" name="mostrarUsuarios" checked>
                         </div>
                     </div>
-                    <div class="mb-3 col-2">
+                    <div class="mb-3 col-2 col-md-2">
                         <div class="form-check">
                             <label for="consultarSaldo" class="form-check-label negro">Consultar saldo</label>
                             <input type="checkbox" class="form-check-input check" name="consultarSaldo">
                         </div>
                     </div>
+                    <div class="w-100"></div>
+                    <div class="mb-3 col-2 col-md-2">
+                        <div class="form-check">
+                            <label for="abonarSaldo" class="form-check-label negro">Abonar saldo</label>
+                            <input type="checkbox" class="form-check-input check" name="abonarSaldo" checked>
+                        </div>
+                    </div>
+                    <div class="mb-3 col-2 col-md-2">
+                        <div class="form-check">
+                            <label for="debitarSaldo" class="form-check-label negro">Debitar saldo</label>
+                            <input type="checkbox" class="form-check-input check" name="debitarSaldo" checked>
+                        </div>
+                    </div>
+                    <div class="mb-3 col-2 col-md-2">
+                        <div class="form-check">
+                            <label for="debitarSaldo" class="form-check-label negro">Debitar saldo</label>
+                            <input type="checkbox" class="form-check-input check" name="debitarSaldo">
+                        </div>
+                    </div>
+                    <div class="mb-3 col-2 col-md-2">
+                        <div class="form-check">
+                            <label for="depositos" class="form-check-label negro">Depositos</label>
+                            <input type="checkbox" class="form-check-input check" name="depositos" checked>
+                        </div>
+                    </div>
+                    <div class="mb-3 col-2 col-md-2">
+                        <div class="form-check">
+                            <label for="agregarRol" class="form-check-label negro">Agregar rol</label>
+                            <input type="checkbox" class="form-check-input check" name="agregarRol">
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="textoDatos" class="form-text col-md-12 text-wrap azul col-md-2 col-xs-6 col-sm-4 col-auto">
+                    <span class="naranja">*</span><label for="datosObligatorios">Datos Obligatorios</label>
+                </div>
+                <div class="py-1 mx-5 d-grid gap-2 d-md-flex justify-content-md-end col-md-11 col-sm-12 col-xs-12 col-auto">
+                    <button type="button" class="btn btn-outline-primary btn1 animacion1">CANCELAR</button>
+                    <button type="button" class="btn btn-primary btn2">GUARDAR</button>
                 </div>
             </form>
         </div>

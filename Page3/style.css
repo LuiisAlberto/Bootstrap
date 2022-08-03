@@ -1,5 +1,5 @@
 h2{
-    color: #FF6600!important;
+    color: #0F3C73 !important;
 }
 
 h3{
@@ -23,6 +23,21 @@ label{
 }
 
 .check{
+    background-color: #FF6600 !important;
+    border: #FF6600 !important;
+}
+
+.btn1{
+    color: #0F3C73 !important;
+}
+
+.animacion1:hover{
+    background-color: #0F3C73 !important;
+    border: #0F3C73 !important;
+    color: #FFFFFF !important;
+}
+
+.btn2{
     background-color: #FF6600 !important;
     border: #FF6600 !important;
 }
