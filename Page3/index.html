@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../libs/css/bootstrap.min.css">
+    <title>Usuario</title>
+</head>
+
+<body>
+
+    <div class="container px-0 py-4">
+        <h2>Editar Usuario</h2>
+        <br>
+        <div class="alert alert-secondary">
+            <form class="mb-3">
+                <h3>Datos Personales</h3>
+                <div class="w-100"></div>
+                <br>
+                <div class="row">
+                    <div class="col-2">
+                        <label for="nombres" class="form-label">Nombre(s)<span class="naranja">*</span></label>
+                        <input type="text" class="form-control" placeholder="Cesar Manuel">
+                    </div>
+                    <div class="col-2">
+                        <label for="apellidoPaterno" class="form-label">Apellido Paterno<span
+                                class="naranja">*</span></label>
+                        <input type="text" class="form-control" placeholder="Gonzáles">
+                    </div>
+                    <div class="col-2">
+                        <label for="apellidoMaterno" class="form-label">Apellido Materno<span
+                                class="naranja">*</span></label>
+                        <input type="text" class="form-control" placeholder="Hernández">
+                    </div>
+                    <div class="col-4">
+                        <label for="email" class="form-label">Correo eléctronico<span class="naranja">*</span></label>
+                        <input type="email" class="form-control" placeholder="cesarmanuelgonzales@gmail.com">
+                    </div>
+                    <div class="w-100"></div>
+                    <br>
+                    <div class="col-2">
+                        <label for="password" class="form-label">Contraseña<span class="naranja">*</span></label>
+                        <input type="password" class="form-control" placeholder="**********">
+                    </div>
+                    <div class="col-2">
+                        <label for="password" class="form-label">Confirmar Contraseña<span
+                                class="naranja">*</span></label>
+                        <input type="password" class="form-control" placeholder="**********">
+                    </div>
+                    <br>
+                    <div id="textoconstraseña" class="form-text col-md-12 text-wrap azul">
+                        La constraseña debe de ser de al menos 8 posiciones. Debe contontener una letra mayúscula, una
+                        minúscula, un número y un caracter especial como %&$!.
+                    </div>
+                </div>
+                <hr>
+                <div class="w-100"></div>
+                <h3>Roles de Usuario</h3>
+                <div class="w-100"></div>
+                <br>
+                <div class="row">
+                    <div class="mb-3 col-2">
+                        <div class="form-check">
+                            <label for="nuevoCliente" class="form-check-label negro">Nuevo Cliente</label>
+                            <input type="checkbox" class="form-check-input check" name="nuevoCliente" checked>
+                        </div>
+                    </div>
+                    <div class="mb-3 col-2">
+                        <div class="form-check">
+                            <label for="mostrarClientes" class="form-check-label negro">Mostrar clientes</label>
+                            <input type="checkbox" class="form-check-input check" name="mostrarClientes">
+                        </div>
+                    </div>
+                    <div class="mb-3 col-2">
+                        <div class="form-check">
+                            <label for="registrarUsuario" class="form-check-label negro">Registrar usuario</label>
+                            <input type="checkbox" class="form-check-input check" name="registrarUsuario" checked>
+                        </div>
+                    </div>
+                    <div class="mb-3 col-2">
+                        <div class="form-check">
+                            <label for="mostrarUsuarios" class="form-check-label negro">Mostrar usuarios</label>
+                            <input type="checkbox" class="form-check-input check" name="mostrarUsuarios" checked>
+                        </div>
+                    </div>
+                    <div class="mb-3 col-2">
+                        <div class="form-check">
+                            <label for="consultarSaldo" class="form-check-label negro">Consultar saldo</label>
+                            <input type="checkbox" class="form-check-input check" name="consultarSaldo">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
